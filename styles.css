@@ -1,0 +1,104 @@
+body {
+    height: 110rem;
+    font-family: poppins;
+    background-color: #f2f6fc;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.topic {
+    color: #135DC5;
+    text-align: center;
+    padding: 2rem;
+}
+
+.formCard {
+    position: absolute;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #435366;
+    width: 75vw;
+    height: auto;
+    left:9.5rem;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: 0.6s;
+}
+
+.formCard:hover {
+    transform: scale(1.005);
+    transition-duration: 0.8s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.name h5, .imgFile h5, .name h5, .birthday h5, .age h5, .gender h5, .no h5, .address h5, .emai h5,
+.city h5, .uni h5, .color h5, .skills h5, .linkedin h5, .cvFile h5, .gender p
+{
+    color: #ffffff;
+}
+
+.skills li {
+    color: #ffffff;
+}
+
+.name input, .imgFile input, .birthday input, .age input, .no input, .address input, .emai input,
+.uni input, .color input, .linkedin input
+{
+    font-family: poppins;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.cvFile input {
+    font-family: poppins;
+    color: #ffffff;
+    background-color: #FBA01F;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.cvFile input:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.city select {
+    font-family: poppins;
+    color: #ffffff;
+    background-color: #FBA01F;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.city select:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.submit input {
+    font-family: poppins;
+    color: #ffffff;
+    background-color: #FBA01F;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+.submit input:hover {
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
